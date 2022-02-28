@@ -1,20 +1,23 @@
-export default {
-  appVersion: '3.5.17',
-  copyright: '© 2022 All Covered',
-  appTitles: {
-    login: 'Login',
-    forza: 'Forza',
+const enLabels = {
+  header: {
+    title: 'Xepelin Movie Database',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac accumsan odio. Quisque et felis id magna ultricies.',
   },
-  LoginComponent: {
-    SignIn: 'SIGN IN',
-    PlaceholderPassword: 'Password',
-    PlaceholderUsername: 'Username',
-    LoginModal: {
-      title: 'New Account',
-      placeholderUsername: 'Type in username',
-      placeholderURL: 'Type in URL',
-      confirmButton: 'CONFIRM',
-      cancelButton: 'CANCEL',
+  content: {
+    mostPopular: {
+      title: 'Más populares',
+      content: 'Nullam sapien arcu tempor',
+    },
+    bestRated: {
+      title: 'Mejor evaluadas',
+      content: 'Phasellus mi urna euismod',
+    },
+    nextReleases: {
+      title: 'Próximos eventos',
+      content: 'Morbi ac turpis lacus',
     },
   },
 };
+
+export default enLabels;
