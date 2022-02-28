@@ -1,0 +1,46 @@
+.Header {
+  &__Image {
+    width: 100%;
+  }
+  &__Information {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 120px;
+    margin-left: 70px;
+    margin-bottom: 62px;
+    &__YellowIcon {
+      width: 72px;
+      height: 72px;
+      background-color: #f7cf71;
+      margin-bottom: 36px;
+      &__Icon {
+        padding: 18px 20px;
+      }
+    }
+    &__Text {
+      font-family: Space Grotesk;
+      font-style: normal;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      text-align: initial;
+      &\--title {
+        width: 612px;
+        height: 54px;
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 100%;
+        margin-bottom: 26px;
+      }
+      &\--content {
+        width: 586px;
+        height: 60px;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 150%;
+      }
+    }
+  }
+}
