@@ -1,23 +1,23 @@
 import React from 'react';
-import { HeaderComponentProps } from './types/HeaderInterfaces';
+import { HeaderComponentProps } from './types/headerInterfaces';
 import enLabels from '../../../../../constants/en-labels';
 import './Header.scss';
 
 const Header = (_props: HeaderComponentProps) => {
   const renderInformation = () => {
     return (
-      <div className='Header__Information'>
-        <div className='Header__Information__YellowIcon'>
+      <div className='header__information'>
+        <div className='header__information__movieIcon'>
           <img
             src={require('./../../../../../assets/icons/MovieIcon.png')}
             alt='MovieIcon'
-            className='Header__Information__YellowIcon__Icon'
+            className='header__information__movieIcon__icon'
           />
         </div>
-        <span className='Header__Information__Text Header__Information__Text--title'>
+        <span className='header__information__text header__information__text--title'>
           {enLabels.header.title}
         </span>
-        <span className='Header__Information__Text Header__Information__Text--content'>
+        <span className='header__information__text header__information__text--content'>
           {enLabels.header.content}
         </span>
       </div>
@@ -25,9 +25,9 @@ const Header = (_props: HeaderComponentProps) => {
   };
 
   return (
-    <div className='Header'>
+    <div className='header'>
       <img
-        className='Header__Image'
+        className='header__image'
         src={require('../../../../../assets/images/HeaderImage.png')}
         alt='HeaderImaage'
       ></img>

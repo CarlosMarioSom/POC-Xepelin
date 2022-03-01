@@ -1,0 +1,35 @@
+.movie {
+  align-self: flex-start;
+  max-width: 188px;
+  padding-right: 24px;
+  &__image {
+    width: 188px;
+    height: 282px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    background-color: #f7cf71;
+  }
+  &__titleContent {
+    margin-bottom: 6px;
+    text-align: initial;
+  }
+  &__dateContent {
+    text-align: initial;
+  }
+  &__text {
+    font-family: Space Grotesk;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    text-align: initial;
+    &\--title {
+      color: #141414;
+      font-weight: bold;
+    }
+    &\--date {
+      font-weight: normal;
+      color: #666666;
+    }
+  }
+}

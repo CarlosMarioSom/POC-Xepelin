@@ -8,6 +8,10 @@ export const movies = createSlice({
   reducers: reducers,
 });
 
-export const { actionTest } = movies.actions;
+export const {
+  saveBestRatedMovies,
+  saveMostPopularMovies,
+  saveNextReleasesMovies,
+} = movies.actions;
 
 export default movies.reducer;
