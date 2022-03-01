@@ -18,6 +18,9 @@ const enLabels = {
       content: 'Morbi ac turpis lacus',
     },
   },
+  movieModal: {
+    addToFavorites: 'Agregar a favoritas',
+  },
 };
 
 export default enLabels;

@@ -6,11 +6,11 @@ import './Movies.scss';
 
 const Movies = (_props: IMoviesComponentProps) => {
   return (
-    <div className='Movies'>
-      <div className='Movies__Header'>
+    <div className='movies'>
+      <div className='movies__header'>
         <Header />
       </div>
-      <div className='Movies__Content'>
+      <div className='movies__content'>
         <Content />
       </div>
     </div>

@@ -8,7 +8,7 @@ export interface MovieState {
   overview: string;
   popularity: number;
   posterPath: number;
-  releaseDate: Date;
+  releaseDate: string;
   title: string;
   video: boolean;
   voteAverage: number;
